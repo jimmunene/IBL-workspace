@@ -145,7 +145,7 @@ if (isset($_POST['btn-signup'])) {
 	<!-- Basic Page Needs
 ================================================== -->
 	<meta charset="utf-8">
-	<title>Work Scout</title>
+	<title>Informatics connec</title>
 
 	<!-- Mobile Specific Metas
 ================================================== -->
@@ -177,7 +177,7 @@ if (isset($_POST['btn-signup'])) {
 					<!-- Logo -->
 					<div id="logo" style="margin-top:15px">
 						<h1><a href="index.php">
-								<font style="font-size:25px; color:white">ArtBeat Kenya</font>
+								<font style="font-size:25px; color:white">Informatics connec</font>
 							</a></h1>
 					</div>
 
@@ -185,7 +185,7 @@ if (isset($_POST['btn-signup'])) {
 					<nav id="navigation" class="menu">
 						<ul id="responsive">
 
-							<li><a data-toggle="modal" data-target="#myModal" id="current">New Art</a>
+							<li><a data-toggle="modal" data-target="#myModal" id="current">New Talent?</a>
 
 							</li>
 						</ul>
@@ -222,7 +222,7 @@ if (isset($_POST['btn-signup'])) {
 
 						<!-- Announce -->
 						<div class="announce">
-							We have over <strong>15,000</strong> Post offers for you!
+							We have pooled over <strong>120</strong> Post offers and jobs for you!
 						</div>
 
 					</div>
@@ -248,7 +248,7 @@ if (isset($_POST['btn-signup'])) {
 						</button>
 
 						<h4 class="modal-title" id="myModalLabel">
-							Fill in Your Details Here
+							Fill in Your Information  Here
 						</h4>
 					</div>
 					<form class="form-signin" method="post" id="login-form">
@@ -296,6 +296,9 @@ if (isset($_POST['btn-signup'])) {
 				<div class="modal-body">
 					Name: <input type="text" name="txt_uname" placeholder="Enter Your name" required />
 				</div>
+				<div class="modal-body">
+					National I.D: <input type="I.D" name="I.D" placeholder="Enter Your I.D number" required />
+				</div>
 
 				<div class="modal-body">
 					Email : <input type="email" name="txt_umail" placeholder="Enter Your email here" required />
@@ -304,7 +307,7 @@ if (isset($_POST['btn-signup'])) {
 					Password: <input type="password" name="txt_upass" placeholder="Enter Your password" required />
 				</div>
 				<div class="modal-body">
-					Slect Your Photo: <input type="file" name="img" required />
+					Slect Your profile picture: <input type="file" name="img" required />
 				</div>
 
 				<div class="modal-footer">
@@ -437,7 +440,7 @@ if (isset($_POST['btn-signup'])) {
 						<li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
 						<li><a class="linkedin" href="#"><i class="icon-linkedin"></i></a></li>
 					</ul>
-					<div class="copyrights">© Copyright 2017 by <a href="#">Phptpoint</a>. All Rights Reserved.</div>
+					<div class="copyrights">© Copyright 2021 <a href="#">IBLWORKSPACE</a>. All Rights Reserved.</div>
 				</div>
 			</div>
 		</div>
@@ -489,6 +492,5 @@ if (isset($_POST['btn-signup'])) {
 
 </body>
 
-<!-- Mirrored from www.vasterad.com/themes/workscout/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Jun 2017 06:32:06 GMT -->
 
 </html>
